@@ -1,73 +1,108 @@
 @import "--var.scss";
 @import "--mixing.scss";
-* {
-  padding: 0;
+body {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-// home_page
-
-.bg {
-  background-image: url(../img/bg.jpg);
-  @include bg_img;
-  height: 100vh;
-  width: 100vw;
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none !important;
+}
+// nav
+.logo {
+  width: 2rem;
+}
+.my_nav {
+  padding: 2rem;
+}
+// nav end
+// btn
+.my_btn {
+  background-color: transparent;
+  border-color: $c;
+  color: $c;
+  border: 1px solid;
+  padding: 7px 22px !important;
+  text-transform: capitalize;
+  font-weight: 300 !important;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: "europa", sans-serif;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $hover;
+    border-color: $hover;
+    color: white;
+  }
+}
+.my_btn2 {
+  text-transform: capitalize;
+  margin-right: 1rem;
+  font-weight: 500 !important;
+  color: $c2;
+  font-size: 18px;
+  transition: all 0.3s;
+  &:hover {
+    color: $hover;
+  }
+}
+// btn end
+// top title
+.top_title {
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-a:hover {
-  color: unset !important;
+  h1 {
+    font-size: 3.6rem;
+    font-weight: 800;
+    color: black;
+    font-family: auto;
+  }
+  h3 {
+    color: $c2;
+    font-size: 1.5em;
+  }
 }
-.my_card_img {
-  height: 17rem;
+.top_title_text {
+  padding: 8rem;
+}
+.top_title_img {
   @include bg_img;
-}
-.my_card {
-  border: none;
-}
-.clild_div {
-  height: 85vh;
-  width: 90vw;
-  background-color: #ffffff;
-  border-radius: 15px;
-}
-.login_img_div {
-  background-color: #015ae6;
-  border-radius: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.login_img {
-  width: 100%;
-  @include bg_img;
-  height: 85vh;
-  border-radius: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.login_icon {
-  width: 5rem;
-  height: 5rem;
-  margin: auto;
-
-  @include bg_img;
-}
-.login_icon2 {
-  width: 15rem;
+  width: 14rem;
   height: 15rem;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-top: 6rem;
+}
+.hero_img {
   @include bg_img;
+  width: 42rem;
+  height: 17rem;
+  margin: auto;
 }
-.login_title {
-  color: $color_1;
+// top title end
+// banner
+.banner {
+  background-color: $c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9rem;
+  h1 {
+    color: white;
+  }
+  p {
+    color: white;
+    font-family: "europa", sans-serif;
+    line-height: 1.5;
+    text-transform: capitalize;
+    padding: 0 6rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    font-size: 16px;
+  }
 }
-.login_btn {
-  color: $color_1 !important;
-  font-weight: bolder !important;
-  border: 1px solid !important;
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
-}
+// banner end

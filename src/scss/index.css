@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.logo {
+  width: 2rem;
+}
+
+.my_nav {
+  padding: 2rem;
+}
+
+.my_btn {
+  background-color: transparent;
+  border-color: #7510f7;
+  color: #7510f7;
+  border: 1px solid;
+  padding: 7px 22px !important;
+  text-transform: capitalize;
+  font-weight: 300 !important;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: "europa", sans-serif;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.my_btn:hover {
+  background-color: #7510f6;
+  border-color: #7510f6;
+  color: white;
+}
+
+.my_btn2 {
+  text-transform: capitalize;
+  margin-right: 1rem;
+  font-weight: 500 !important;
+  color: #969aa7;
+  font-size: 18px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.my_btn2:hover {
+  color: #7510f6;
+}
+
+.top_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_title h1 {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: black;
+  font-family: auto;
+}
+
+.top_title h3 {
+  color: #969aa7;
+  font-size: 1.5em;
+}
+
+.top_title_text {
+  padding: 8rem;
+}
+
+.top_title_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 14rem;
+  height: 15rem;
+  margin: auto;
+  margin-top: 6rem;
+}
+
+.hero_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 42rem;
+  height: 17rem;
+  margin: auto;
+}
+
+.banner {
+  background-color: #7510f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9rem;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  font-family: "europa", sans-serif;
+  line-height: 1.5;
+  text-transform: capitalize;
+  padding: 0 6rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+/*# sourceMappingURL=index.css.map */
