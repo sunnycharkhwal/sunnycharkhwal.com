@@ -1,4 +1,11 @@
 @media (max-width: 576px) {
+  .tel_img {
+    height: 5rem;
+    width: 5rem;
+  }
+  .info_card h5 {
+    font-size: 15px;
+  }
   .banner {
     padding: 1rem;
   }

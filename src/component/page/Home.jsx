@@ -1,6 +1,8 @@
 import React from "react";
 import Title_Img from "../../img/top_user.svg";
 import Hero from "../../img/hero.svg";
+import MyImg from "../PageComponent/MyImg";
+import CardApp from "../card/CardApp";
 const Home = () => {
   return (
     <>
@@ -16,22 +18,12 @@ const Home = () => {
                 </h3>
               </div>
               <div>
-                <div
-                  className="top_title_img"
-                  style={{
-                    backgroundImage: `url(${Title_Img})`,
-                  }}
-                ></div>
+                <MyImg className="top_title_img" backgroundImage={Title_Img} />
               </div>
             </div>
           </div>
           <div>
-            <div
-              className="hero_img"
-              style={{
-                backgroundImage: `url(${Hero})`,
-              }}
-            ></div>
+            <MyImg className="hero_img" backgroundImage={Hero} />
           </div>
         </div>
       </section>
@@ -53,6 +45,9 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
+      <section className=" container">
+        <CardApp />
       </section>
     </>
   );
