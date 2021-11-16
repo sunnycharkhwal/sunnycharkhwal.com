@@ -55,6 +55,12 @@
   .top_title_img {
     height: 15rem;
   }
+  .project_section_img {
+    height: 11rem;
+  }
+  .project_section_h3_div {
+    padding: 7px 0;
+  }
 }
 @media (min-width: 1024px) {
   .top_title_text {
@@ -63,9 +69,21 @@
   .top_title_img {
     height: 15rem;
   }
+  .project_section_img {
+    height: 10rem;
+  }
+  .project_section_h3_div {
+    padding: 7px 0;
+  }
 }
 
 @media (min-width: 1440px) {
+  .project_section_img {
+    height: 14rem;
+  }
+  .project_section_h3_div {
+    padding: 1rem 0;
+  }
 }
 @media (min-width: 2000px) {
 }

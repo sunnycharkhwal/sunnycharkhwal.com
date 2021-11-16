@@ -124,3 +124,37 @@ a {
     font-family: fantasy;
   }
 }
+.project_section_img {
+  @include bg_img;
+  height: 14rem;
+  width: 100%;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.project_section_h3_div {
+  background-color: #5c5b5b;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  transition: all 0.3s;
+  padding: 1rem 0;
+  h3 {
+    color: white;
+    font-size: 25px;
+    transition: all 0.3s;
+  }
+}
+.project_section_div {
+  border-radius: 10px;
+}
+.project_section_div_link {
+  &:hover {
+    .project_section_h3_div {
+      background-color: $c;
+    }
+    .project_section_h3_div {
+      h3 {
+        color: white;
+      }
+    }
+  }
+}

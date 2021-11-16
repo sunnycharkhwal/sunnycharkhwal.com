@@ -3,6 +3,7 @@ import Title_Img from "../../img/top_user.svg";
 import Hero from "../../img/hero.svg";
 import MyImg from "../PageComponent/MyImg";
 import CardApp from "../card/CardApp";
+import ProjectSection from "../ProjectCard/HomePage/ProjectSection";
 const Home = () => {
   return (
     <>
@@ -35,7 +36,7 @@ const Home = () => {
             </div>
             <div className="text-center">
               <p>
-                Since beginning my journey as a freelance designer nearly 10
+                Since beginning my journey as a freelance designer nearly 2
                 years ago, I've done remote work for agencies, consulted for
                 startups, and collaborated with talented people to create
                 digital products for both business and consumer use. I'm quietly
@@ -48,6 +49,9 @@ const Home = () => {
       </section>
       <section className=" container">
         <CardApp />
+      </section>
+      <section className="container">
+        <ProjectSection />
       </section>
     </>
   );

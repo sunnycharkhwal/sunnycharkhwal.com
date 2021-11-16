@@ -152,4 +152,42 @@ a {
   font-weight: 600;
   font-family: fantasy;
 }
+
+.project_section_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 14rem;
+  width: 100%;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.project_section_h3_div {
+  background-color: #5c5b5b;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 1rem 0;
+}
+
+.project_section_h3_div h3 {
+  color: white;
+  font-size: 25px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.project_section_div {
+  border-radius: 10px;
+}
+
+.project_section_div_link:hover .project_section_h3_div {
+  background-color: #7510f7;
+}
+
+.project_section_div_link:hover .project_section_h3_div h3 {
+  color: white;
+}
 /*# sourceMappingURL=index.css.map */
