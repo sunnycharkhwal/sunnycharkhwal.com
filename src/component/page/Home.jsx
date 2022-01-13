@@ -2,8 +2,8 @@ import React from "react";
 import Title_Img from "../../img/top_user.svg";
 import Hero from "../../img/hero.svg";
 import MyImg from "../PageComponent/MyImg";
-import CardApp from "../card/CardApp";
-import ProjectSection from "../ProjectCard/HomePage/ProjectSection";
+// import CardApp from "../card/CardApp";
+
 const Home = () => {
   return (
     <>
@@ -47,12 +47,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className=" container">
+      {/* <section className=" container">
         <CardApp />
-      </section>
-      <section className="container">
-        <ProjectSection />
-      </section>
+      </section> */}
+      
     </>
   );
 };

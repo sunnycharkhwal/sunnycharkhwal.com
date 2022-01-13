@@ -1,7 +1,7 @@
 import React from "react";
 import CardData from "./CardData";
 import Cards from "./Cards";
-const CardApp = () => {
+const CardApp = (props) => {
   return (
     <>
       <div className="row mb-5 g-3">

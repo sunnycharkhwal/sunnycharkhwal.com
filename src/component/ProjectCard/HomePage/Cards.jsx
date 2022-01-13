@@ -14,7 +14,7 @@ const Cards = (props) => {
             <div className=" text-center">
               <div className="project_section_img_div">
                 <MyImg
-                  className="project_section_img"
+                  className="project_section_img project_section_img_new"
                   backgroundImage={props.imgsrc}
                 />
               </div>

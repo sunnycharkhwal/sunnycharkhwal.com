@@ -1,8 +1,11 @@
 import React from "react";
+import ProjectSection from "../ProjectCard/HomePage/ProjectSection";
 const Project = () => {
   return (
     <>
-      <h1>Project</h1>
+      <section className="container">
+        <ProjectSection />
+      </section>
     </>
   );
 };
