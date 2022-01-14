@@ -36,6 +36,11 @@ const CardData = [
     title: "Blog Website",
     links: "http://sunnycharkhwal.in/blog/",
   },
+     {
+    imgsrc: P11,
+    title: "Racing Website",
+    links: "http://sunnycharkhwal.in/racing/",
+  },
   {
     imgsrc: P2,
     title: "Tattoos Website",
@@ -61,11 +66,7 @@ const CardData = [
     title: "NGO Website",
     links: "http://sunnycharkhwal.in/NGO/",
   },
-          {
-    imgsrc: P11,
-    title: "Racing Website",
-    links: "http://sunnycharkhwal.in/racing/",
-  },
+       
 ];
 
 export default CardData;
